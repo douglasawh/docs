@@ -157,6 +157,10 @@ The following options must be set to the same value on all servers in the cluste
 
 ### Customized Flags for Kubernetes Processes
 
+For all of the items in the section, see the documentation for the project to see the flags. For example: https://etcd.io/docs/v3.6/op-guide/configuration/
+
+PLEASE NOTE: make sure the documentation you use is the appropriate version for the included project. That version will change as k3s is updated.
+
 | Flag                                        | Description                                               |
 |---------------------------------------------|-----------------------------------------------------------|
 | `--etcd-arg` value                          | Customized flag for etcd process                          |
